@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Age</title>
+    </head>
+    <body>
+        <script>
+            let age = prompt("Сколько тебе лет?");
+            function check (age){
+                if (isNaN(age)){
+                    alert("ERROR! IT'S NOT A NUMBER");
+                }else {
+                    if (age < 18 && age > 0){
+                        alert("You don't have access cause your age is " + age + " It's less then!");
+                    }else if (age >= 18 && age < 60){
+                        alert("Welcome !");
+                    }else if (age > 60){
+                        alert("Keep calm and look Culture channel");
+                    }else {
+                        alert("Technical work");
+                    }
+                }
+            }
+            check(age) 
+        </script>
+    </body>
+</html>
