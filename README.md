@@ -1,4 +1,4 @@
-# JavaScript rep
-
+# The result of learning JavaScript is displayed in this repository:
+_Contains two homework assignments._
 ***
-_Contain 2 hw._
+## JS Homework 1:
