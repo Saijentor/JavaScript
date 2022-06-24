@@ -32,3 +32,38 @@ function validation (input){
     }
 }
 validation(input)
+
+//Or
+
+
+var mail = prompt("Enter your email:\nEmail must contain more than 4 and less than 65 number of symbols.\nEmail must contain Upper case, Lower case, @ symbol.");
+
+function val (mail){
+    const specialChars = /[@]/;
+    const UpperCase = /[A-Z]/;
+    const LowerCase = /[a-z]/;
+    const Number = /[0-9]/;
+
+		var errors = '';
+        if (mail.length == 0){
+             errors += '\nEmail cannot be empty!'
+        } if (mail.length < 5){
+             errors += '\nNumber of symbols is less than 5!'
+        } if (mail.length > 64){
+             errors += '\nNumber of symbols is more than 64!'
+        } if (specialChars.test(mail) == false){
+             errors += '\n@ symbol absent!'
+        } if (UpperCase.test(mail) == false){
+             errors += '\nUpper case symbol absent!'
+        } if (LowerCase.test(mail) == false){
+            errors += '\nLower case symbol absent!'
+        } if (Number.test(mail) == false){
+            errors += '\nNumber absent!'
+        } if (errors == ''){
+		alert ('Email is valid!')
+		} else{
+        alert(errors);
+    }
+}
+val (mail);
+        
