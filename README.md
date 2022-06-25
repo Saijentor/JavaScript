@@ -23,6 +23,12 @@ console.log("Item_6 ==",item_6,"|","Item_6_type ==",item_6_type)
 
 * You need to write a validation script in which: 
 `From 5 to 64 symbols; There is at least one uppercase letter, number, @ symbol.`
+``` javascript
+    const specialChars = /[@]/;
+    const UpperCase = /[A-Z]/;
+    const LowerCase = /[a-z]/;
+    const Number = /[0-9]/;
+```
 
 [Homework 2](https://github.com/Saijentor/JavaScript/blob/main/HWJS2.js)
 
