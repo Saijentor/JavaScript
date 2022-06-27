@@ -1,15 +1,15 @@
-// 1. Создать переменную “item_1”
-// 2. Присвоить переменной item_1 цифру 5.
+// 1. Create a variable “item_1”
+// 2. Assign the number 5 to the item_1 variable..
 let item_1 = 5;
-// 3. Вывести в консоль item_1.
+// 3. Print item_1 to the console.
 console.log(item_1)
-// 4. Создать переменную “item_2”
-// 5. Присвоить переменной item_2 цифру 3.
+// 4. Create a variable "item_2"
+// 5. Assign the number 3 to the item_2 variable.
 let item_2 = 3;
-// 6. Вывести в консоль item_2.
+// 6. Print item_2 to the console.
 console.log(item_2)
-// 7. Создать переменную “item_3”
-// 8. Присвоить переменной item_3 сложение item_1 и item_2.
+// 7. Create variable "item_3"
+// 8. Assign item_3 to the addition of item_1 and item_2.
 let item_3 = item_1 + item_2;
 // 9. Вывести в консоль item_3.
 console.log(item_3)
