@@ -3,15 +3,15 @@ _Contains two homework assignments._
 ***
 ## JS Homework 1:
 
-* Создать переменную “item_1” и присвоить ей значение 5:
+* Create a variable "item_1" and assign the value 5 to it:
 ```javascript
 let item_1 = 5
 ```
-* Создать переменную item_6_type и присвоить тип переменной item_6:
+* Create variable item_6_type and assign type to item_6 variable:
 ```javascript
 let item_6_type = typeof item_6
 ```
-* Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——
+* Print item_6 datatype to console as —— “item_6 == ” item_6, “item_6_type == ” item_6_type:
 ```javascript 
 console.log("Item_6 ==",item_6,"|","Item_6_type ==",item_6_type)
 ```
